@@ -2,12 +2,13 @@
 #include <string.h>
 #include <cs50.h>
 #include <math.h>
+#include <ctype.h>
 
 string ari(string str) {
   int c = 0, w = 0, s = 0;
   int idx;
   for(int i=0; i<strlen(str); i++) {
-    if(isalnum)
+    if(isalnum(str[i]))
       c++;
       
     if(str[i] == ' ')
